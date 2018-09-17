@@ -37,10 +37,11 @@ h1 {
     background-color: #3F51B5;
     color: white;
     size: 96px;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.5px;
     height: 56px;
     line-height: 56px;
-    width: 40%;
+    width: 100%;
+    position: fixed;
 }
 
 #logo {
@@ -168,10 +169,15 @@ li img {
     position: absolute;
     width: 40%;
     left: 0%;
+    overflow: auto;
 }
 
 #chat {
     position: absolute;
     right: 0%;
     width: 60%;
+}
+
+#channel-list {
+    overflow: auto;
 }
