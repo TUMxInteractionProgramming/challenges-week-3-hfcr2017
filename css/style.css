@@ -88,6 +88,21 @@ li img {
     position: fixed;
     bottom: 0;
     width: 40%;
+    display: flex;
+    flex-basis: 0;
+}
+
+#chat-bar {
+    /* #3 #tab-bar #container should be white */
+    background-color: white;
+    /* #3 #tab-bar #container has all buttons centered */
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 40%;
+    display: flex;
+    flex-basis: 0;
+    left: 40%;
 }
 
 /* #4 add styles to #tab-bar #buttons */
@@ -130,6 +145,9 @@ li img {
 
 
 .message h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: medium;
 }
 
@@ -152,11 +170,14 @@ li img {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
+    position: absolute;
+    right: 8px;
 }
 
 /* #4 left align own #messages using #margins */
 .message.own {
     margin-left: 17.5%;
+    margin-top: 56px;
 }
 
 #channels {
@@ -172,7 +193,7 @@ li img {
     right: 0;
     height: 100%;
     width: 60%;
-    overflow: auto;
+    overflow: scroll;
 }
 
 #logo {
@@ -182,3 +203,20 @@ li img {
     vertical-align: middle;
 }
 
+.channel-meta {
+    position: absolute;
+    right: 16px;
+    vertical-align: middle;
+}
+
+#emojis {
+    position: relative;
+    padding: 16px;
+    border: 16px;
+    margin-bottom: 286px;
+}
+
+#emojis-button {
+    position: absolute;
+    bottom: 16px;
+}
