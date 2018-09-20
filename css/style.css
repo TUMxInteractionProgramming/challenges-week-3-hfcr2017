@@ -32,6 +32,11 @@ h1 {
     color: white;
 }
 
+.app-bar {
+    height: 56px;
+    position: relative;
+    line-height: 56px;
+}
 
 /* CHANNELS LIST */
 
@@ -141,5 +146,26 @@ li img {
 /* #4 left align own #messages using #margins */
 .message.own {
     margin-left: 17.5%;
+}
+
+#channels {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 40%;
+}
+
+#chat {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+}
+
+#logo {
+    position: relative;
+    height: 56px;
+    left: 16px;
+    vertical-align: middle;
 }
 
