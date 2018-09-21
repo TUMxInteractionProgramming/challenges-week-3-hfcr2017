@@ -215,9 +215,21 @@ li img {
     padding: 16px;
     border: 16px;
     margin-bottom: 286px;
+    display: none;
 }
 
 #emojis-button {
     position: absolute;
     bottom: 16px;
+}
+
+h1 a {
+    background-color: #3F51B5;
+    color: white;
+}
+
+#app-star {
+    position: relative;
+    vertical-align: middle;
+    left: 16px;
 }
